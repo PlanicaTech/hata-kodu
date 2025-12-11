@@ -1,4 +1,4 @@
-# Arıza Kod Listesi - PWA
+# Egeli Forklift - Arıza Kod Listesi - PWA
 
 A Next.js Progressive Web App for searching diagnostic error codes offline.
 

@@ -1,5 +1,5 @@
 {
-	"name": "Arıza Kod Listesi",
+	"name": "Egeli Forklift - Arıza Kod Listesi",
 	"short_name": "Arıza Kod",
 	"description": "Diagnostic error codes search application",
 	"start_url": "/",
@@ -22,4 +22,3 @@
 		}
 	]
 }
-
