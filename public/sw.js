@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ariza-kod-v3'
+const CACHE_NAME = 'ariza-kod-v4'
 const urlsToCache = [
 	'/',
 	'/manifest.webmanifest',

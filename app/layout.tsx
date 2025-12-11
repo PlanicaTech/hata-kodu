@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 	},
 	appleWebApp: {
 		capable: true,
-		statusBarStyle: 'default',
+		statusBarStyle: 'black-translucent',
 		title: 'Egeli Forklift - Arıza Kod Listesi',
 	},
 }
