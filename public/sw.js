@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ariza-kod-v2'
+const CACHE_NAME = 'ariza-kod-v3'
 const urlsToCache = [
 	'/',
 	'/manifest.webmanifest',
@@ -30,7 +30,7 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
 	const url = new URL(event.request.url)
-	
+
 	// Cache JSON data file
 	if (url.pathname.includes('ariza_kod_listesi.json')) {
 		event.respondWith(
