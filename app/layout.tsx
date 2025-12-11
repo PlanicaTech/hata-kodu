@@ -36,15 +36,20 @@ export default function RootLayout({
 				<ServiceWorkerRegistration />
 				<header className="bg-white shadow-sm border-b border-gray-200">
 					<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-						<Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+						<Link href="/" className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity">
 							<img
 								src="/icons/icon-192.png"
-								alt="Hata Kodu Logo"
-								className="h-10 w-10 object-contain"
+								alt="Egeli Forklift Logo"
+								className="h-14 w-14 md:h-16 md:w-16 object-contain"
 							/>
-							<h1 className="text-2xl font-bold text-gray-900">
-								Egeli Forklift - Arıza Kod Listesi
-							</h1>
+							<div className="min-w-0">
+								<h1 className="text-base sm:text-2xl font-bold text-gray-900 truncate">
+									Egeli Forklift
+								</h1>
+								<p className="text-xs sm:text-sm text-gray-600">
+									Arıza Kod Listesi
+								</p>
+							</div>
 						</Link>
 					</div>
 				</header>
