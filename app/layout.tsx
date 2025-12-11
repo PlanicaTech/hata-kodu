@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 	description: 'Diagnostic error codes search application',
 	manifest: '/manifest.webmanifest',
 	icons: {
-		icon: '/icons/favicon.png',
-		apple: '/icons/favicon.png',
+		icon: '/icons/icon-192.png',
+		apple: '/icons/icon-192.png',
 	},
 	appleWebApp: {
 		capable: true,
