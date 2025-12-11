@@ -1,9 +1,9 @@
 export interface RawDiagnosticCode {
 	NO: number
 	'DFC  name': string
-	Description_English: string
-	Description_Turkish: string
-	' Descrition_Chinese': string
+	Description_English: string | null
+	Description_Turkish: string | null
+	' Descrition_Chinese': string | null
 	'P-Code': string
 	SPN: number
 	FMI: number
@@ -21,9 +21,9 @@ export interface RawDiagnosticCode {
 export interface DiagnosticCode {
 	no: number
 	dfcName: string
-	descriptionEnglish: string
-	descriptionTurkish: string
-	descriptionChinese: string
+	descriptionEnglish: string | null
+	descriptionTurkish: string | null
+	descriptionChinese: string | null
 	pCode: string
 	pCodeClean: string
 	spn: number

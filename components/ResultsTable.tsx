@@ -60,7 +60,7 @@ export function ResultsTable({ codes }: ResultsTableProps) {
 										{code.dfcName}
 									</td>
 									<td className="px-4 py-3 text-sm text-gray-700 max-w-xs truncate">
-										{code.descriptionTurkish}
+										{code.descriptionTurkish ?? '-'}
 									</td>
 								</Link>
 							</tr>

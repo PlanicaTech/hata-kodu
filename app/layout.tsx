@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 import { ServiceWorkerRegistration } from '@/components/ServiceWorkerRegistration'
 
@@ -6,12 +6,18 @@ export const metadata: Metadata = {
 	title: 'Arıza Kod Listesi',
 	description: 'Diagnostic error codes search application',
 	manifest: '/manifest.webmanifest',
-	themeColor: '#ffffff',
 	appleWebApp: {
 		capable: true,
 		statusBarStyle: 'default',
 		title: 'Arıza Kod Listesi',
 	},
+}
+
+export const viewport: Viewport = {
+	themeColor: '#ffffff',
+	width: 'device-width',
+	initialScale: 1,
+	maximumScale: 1,
 }
 
 export default function RootLayout({

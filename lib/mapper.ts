@@ -12,9 +12,9 @@ export function mapRawDiagnosticCode(raw: RawDiagnosticCode): DiagnosticCode {
 	return {
 		no: raw.NO,
 		dfcName: raw['DFC  name'],
-		descriptionEnglish: raw.Description_English,
-		descriptionTurkish: raw.Description_Turkish,
-		descriptionChinese: raw[' Descrition_Chinese'],
+		descriptionEnglish: raw.Description_English ?? null,
+		descriptionTurkish: raw.Description_Turkish ?? null,
+		descriptionChinese: raw[' Descrition_Chinese'] ?? null,
 		pCode: raw['P-Code'],
 		pCodeClean: cleanPCode(raw['P-Code']),
 		spn: raw.SPN,
