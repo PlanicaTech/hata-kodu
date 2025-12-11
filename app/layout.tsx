@@ -6,6 +6,10 @@ export const metadata: Metadata = {
 	title: 'Arıza Kod Listesi',
 	description: 'Diagnostic error codes search application',
 	manifest: '/manifest.webmanifest',
+	icons: {
+		icon: '/icons/favicon.png',
+		apple: '/icons/favicon.png',
+	},
 	appleWebApp: {
 		capable: true,
 		statusBarStyle: 'default',
